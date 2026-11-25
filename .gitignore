@@ -1,0 +1,19 @@
+# Build output
+*.exe
+*.pdb
+*.obj
+
+# Personal / local-only files
+CLAUDE_CODE_PROMPT*.md
+.claude/
+settings.txt
+pins.txt
+error.log
+perf.log
+
+# Screenshots of the real desktop (may show personal windows); selftest renders are kept
+screenshots/0[2-8]-live-*.png
+
+# OS junk
+Thumbs.db
+desktop.ini
